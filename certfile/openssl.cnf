@@ -1,0 +1,4 @@
+[ v3_req ]
+subjectAltName = IP:10.197.42.225
+[ v3_ca ]
+basicConstraints = CA:TRUE

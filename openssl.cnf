@@ -1,0 +1,12 @@
+# This must be in the default section
+openssl_conf = openssl_def
+
+[openssl_def]
+engines = engine_section
+
+[engine_section]
+tls_sec = pki_sec_section
+
+[pki_sec_section]
+engine_id = tlsEngine
+dynamic_path = /Users/nlh/Desktop/TLSEngine/build/libtlsengine.dylib
